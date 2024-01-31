@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webside</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: blue;
+            color: aliceblue;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(26, 108, 241);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(135, 142, 149);
+            font-size: 1.25rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .first div {
+            width: 30%;
+        }
+
+        .leftsection {
+            margin: 30px 0;
+            font-size: 2.75rem;
+
+        }
+
+        .rightsection {
+            background: none;
+            width: 80%;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(221, 44, 12);
+        }
+
+        #element {
+            color: brown;
+        }
+
+        .second {
+            max-width: 80%;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(216, 16, 96);
+            height: 2.0px;
+            margin: 40px 84px;
+        }
+        .second .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .second .vartical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .img-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vartical-text{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vartical-desh{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sarthak's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contect me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">HYY I AM A <span class="purple"><b>Sarthak Gupta</b> </span>
+                <br><b>AND I AM WEB A DEVELOPER</b><br>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="pngtree-web-developer-isometric-illustration-png-image_6067558 (1).jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <h1>Work exprience</h1>
+            <div class="box">
+                <div class="vartical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vartical-text">
+                        HTML DEVELOPER (2021)
+                    </div>
+                    <div class="vartical-desh">Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe maiores itaque eum. Ab aperiam vel dolore deleniti accusantium assumenda.</div>
+                </div>
+                <div class="vartical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vartical-text">
+                        HTML DEVELOPER (2021)
+                    </div>
+                    <div class="vartical-desh">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nesciunt aut magni nihil error iusto veniam tenetur modi. Magni eius amet iure libero.</div>
+                </div>
+                <div class="vartical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vartical-text">
+                        HTML DEVELOPER (2021)
+                    </div>
+                    <div class="vartical-desh">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nesciunt aut magni nihil error iusto veniam tenetur modi. Magni eius amet iure libero.</div>
+                </div>
+                <div class="vartical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vartical-text">
+                        HTML DEVELOPER (2021)
+                    </div>
+                    <div class="vartical-desh">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nesciunt aut magni nihil error iusto veniam tenetur modi. Magni eius amet iure libero.</div>
+                </div>
+                <div class="vartical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vartical-text">
+                        HTML DEVELOPER (2021)
+                    </div>
+                    <div class="vartical-desh">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nesciunt aut magni nihil error iusto veniam tenetur modi. Magni eius amet iure libero.</div>
+                </div>
+                <div class="vartical">
+                    
+                    
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['android developer.', 'web developement.', 'autocadian.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
